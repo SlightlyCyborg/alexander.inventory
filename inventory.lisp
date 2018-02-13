@@ -4,7 +4,7 @@
 (in-package :inventory)
 
 (defparameter my-inventory '())
-(defparameter inventory-file "my-inventory.inventory")
+(defparameter inventory-file "inventory/my-inventory.inventory")
 
 (defun add-container (container)
   (push `(,container . ()) my-inventory))
